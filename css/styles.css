@@ -1,26 +1,52 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#a0ffff
+#ffffff
+#000000
 */
 
 /* Global styles 
 ------------------------------------*/
+html {
+    font-family: sans-serif;
+    background-color: #a0ffff;
+}
+
 body {
-    background: lightblue;
+    width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+    background-color: #ffffff;
+	padding: 10px 2.5% 10px 2.5%;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+footer {
+    width: 100%;
+    border-top: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
-
-
-/* Work Experience
+/* rest
 ------------------------------------*/
 
+h2 {
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+}
 
-
-/* Education
-------------------------------------*/
+h1, h3 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
